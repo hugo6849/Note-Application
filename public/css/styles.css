@@ -34,7 +34,7 @@ label{
     margin-bottom: 1rem;
 }
 
-input[type=submit]{
+input[type=submit], button{
     background-color :var(--clr-secondary);
     color: var(--clr-text);
     padding: 16px 32px;

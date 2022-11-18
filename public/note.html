@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Write a Note</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>
+        Notes Taking Application
+        <sup style="font-size: 1.5rem">by hugo ruiz</sup>
+      </h1>
+    </div>
+
+    <div class="content">
+      <a href="index.html"> < Back</a>
+      <h2>Write a New Note</h2>
+      <form id="noteWrite">
+        <label for="note">Note:</label>
+        <textarea id="noteContent" name="note"></textarea><br />
+        <input
+          type="submit"
+          id="noteSave"
+          name="noteSave"
+          class="noteSave"
+          value="Save Note"
+        />
+      </form>
+    </div>
+  </body>
+
+  <script type="text/javascript" src="scripts/scripts.js"></script>
+</html>
