@@ -1,8 +1,11 @@
+require('dotenv').config();
+
 const express = require('express');
 const path = require('path');
 const app = express();
 
 const userRoutes = require("./server/routes/user.js");
+const noteRoutes = require("./server/routes/note.js");
 
 app.use(express.json());
 
@@ -14,6 +17,8 @@ app.use(function(req, res, next){
 });
 
 app.use("/users", userRoutes);
+app.use("/notes", noteRoutes);
+
 
 app.use(express.static(__dirname + '/public'));
 

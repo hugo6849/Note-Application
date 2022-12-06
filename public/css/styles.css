@@ -1,22 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+    font-family: Yerk;
+    src: url("../fonts/Yerk-Regular.woff2") format("woff2");
+}
 
 :root {
-    --clr-primary: #f4f3ee;
-    --clr-secondary: #e5383b;
-    --clr-tertiary: #333533;
+    --clr-primary: #333533;
+    --clr-secondary: #EEF10E;
+    --clr-tertiary: #f4f3ee;
   
     --clr-text: #f0f1f8;
-  
-    --ff-primary: "Poppins", sans-serif;
+
+    --ff-header: "Yerk", serif;
 }
 
 *{
-    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
 body{
     background-color: var(--clr-primary);
+    font-family: 'Roboto', sans-serif;
 }
 
 a{
@@ -65,7 +68,12 @@ input[type=submit].noteSave{
 
 .header{
     padding: 1rem;
+    font-family: var(--ff-header);
     background-color: var(--clr-secondary);
+}
+
+.header sup{
+    font-size: 1rem;
 }
 
 .content h2{

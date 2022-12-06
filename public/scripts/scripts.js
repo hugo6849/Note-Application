@@ -6,40 +6,6 @@ class User {
       this.userlName = lastName;
       this.userPass = passWord;
     }
-  
-    //Getter Fields
-    getUserName() {
-      return this.user;
-    }
-  
-    getFName() {
-      return this.userfName;
-    }
-  
-    getUserLName() {
-      return this.userlName;
-    }
-  
-    getUserPass() {
-      return this.userPass;
-    }
-  
-    //Setter Fields
-    setUserName(name) {
-      this.user = name;
-    }
-  
-    setUserfName(fname) {
-      this.userfName = fname;
-    }
-  
-    setUserLName(lname) {
-      this.userlName = lname;
-    }
-  
-    setUserName(password) {
-      this.userPass = password;
-    }
   }
   
   class Note {
@@ -99,7 +65,7 @@ class User {
     userList.classList.toggle('hide');
     data.forEach((user) => {
       let section = 
-      `<div>${user.userName}</div>`
+      `<div=>${user.userName}</div>`
       userList.innerHTML+=section;
     });
    })
