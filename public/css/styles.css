@@ -4,9 +4,9 @@
 }
 
 :root {
-    --clr-primary: #333533;
-    --clr-secondary: #EEF10E;
-    --clr-tertiary: #f4f3ee;
+    --clr-primary: #f4f3ee;
+    --clr-secondary: #F99600;
+    --clr-tertiary: #333533;
   
     --clr-text: #f0f1f8;
 
@@ -20,6 +20,9 @@
 body{
     background-color: var(--clr-primary);
     font-family: 'Roboto', sans-serif;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 a{
@@ -70,6 +73,7 @@ input[type=submit].noteSave{
     padding: 1rem;
     font-family: var(--ff-header);
     background-color: var(--clr-secondary);
+    color: var(--clr-text);
 }
 
 .header sup{
@@ -117,5 +121,18 @@ input[type=submit].noteSave{
 
 .notepadimage{
     height: 15rem;
+}
+
+#usr-notes{
+    margin-top: 1rem;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 

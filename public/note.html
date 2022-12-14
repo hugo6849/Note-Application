@@ -10,16 +10,13 @@
 
   <body>
     <div class="header">
-      <h1>
-        Notes Taking Application
-        <sup style="font-size: 1.5rem">by hugo ruiz</sup>
-      </h1>
+      <h1>Note Taking Application</h1>
     </div>
 
     <div class="content">
       <a href="index.html"> < Back</a>
       <h2>Write a New Note</h2>
-      <form id="noteWrite">
+      <form id="noteForm">
         <label for="note">Note:</label>
         <textarea id="noteContent" name="note"></textarea><br />
         <input
@@ -33,5 +30,6 @@
     </div>
   </body>
 
-  <script type="text/javascript" src="scripts/scripts.js"></script>
+  <script type="module" src="scripts/main.js"></script>
+  <script type="module" src="scripts/users.js"></script>
 </html>

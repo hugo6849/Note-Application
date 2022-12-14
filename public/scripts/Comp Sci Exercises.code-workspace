@@ -1,26 +1,26 @@
 {
   "folders": [
-	{
-		"path": "../../../../../Comp Sci Exercises"
-	},
-	{
-		"path": "../../../../../../Downloads/bmi"
-	},
-	{
-		"path": "../../../../../../Downloads/demo"
-	},
-	{
-		"path": "../../../../../../Downloads/friends"
-	},
-	{
-		"path": "../.."
-	},
-	{
-		"path": "../../../../../../Downloads/demo 2"
-	}
-],
+    {
+      "path": "../../../../../Comp Sci Exercises"
+    },
+    {
+      "path": "../../../../../../Downloads/bmi"
+    },
+    {
+      "path": "../../../../../../Downloads/demo"
+    },
+    {
+      "path": "../../../../../../Downloads/friends"
+    },
+    {
+      "path": "../.."
+    },
+    {
+      "path": "../../../../../../Downloads/demo 2"
+    }
+  ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "friends",
+    "liveServer.settings.multiRootWorkspaceName": "Note-Application",
     "liveServer.settings.port": 5501
   }
 }

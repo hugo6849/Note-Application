@@ -15,7 +15,6 @@
   <div class="header">
     <h1>
       Notes Taking Application
-      <sup style="font-size: 1.5rem">by hugo ruiz</sup>
     </h1>
   </div>
 
@@ -23,6 +22,7 @@
     <a href="index.html">
       < Back</a>
         <h2>Login</h2>
+        <p class="error"></p>
         <form id="userLogin">
           <label for="username">Username:</label>
           <input type="text" id="username" name="username" /> </br>
@@ -31,9 +31,10 @@
           <input type="password" id="password" name="password" />
           <br />
 
-          <input type="submit" id="Login" name="Login" value="Login" />
+          <input type="submit" id="login" name="Login" value="Login" />
         </form>
   </div>
 
-  <script type="text/javascript" src="scripts/scripts.js"></script>
+  <script type="module" src="scripts/main.js"></script>
+  <script type="module" src="scripts/users.js"></script>
 </body>
